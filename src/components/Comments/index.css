@@ -1,0 +1,96 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 550px;
+}
+
+.head {
+  color: #1e293b;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+.comments-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  order: 1;
+}
+
+.para {
+  color: #475569;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.name-input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 12px;
+}
+
+.comment-input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+}
+
+.but {
+  color: #ffffff;
+  background-color: #0284c7;
+  border-radius: 5px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.img {
+  width: 280px;
+  height: 200px;
+}
+
+.line {
+  border: 2px solid #dee0e3;
+  width: 100%;
+}
+
+.heading {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.comments-count {
+  text-align: center;
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.comments-list {
+  padding-left: 0px;
+  margin-top: 0px;
+}
