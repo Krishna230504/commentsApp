@@ -1,6 +1,6 @@
 // Write your code here
 import {formatDistanceToNow} from 'date-fns'
-import './ index.css'
+import './index.css'
 
 const CommentItem = props => {
   const {commentDetails} = props
